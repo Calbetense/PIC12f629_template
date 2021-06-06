@@ -1,0 +1,149 @@
+Version 4.0 HI-TECH Software Intermediate Code
+[p mainexit ]
+"694 /home/vermelho/Documents/MPLAB/packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8/pic/include/proc/pic12f629.h
+[; ;/home/vermelho/Documents/MPLAB/packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8/pic/include/proc/pic12f629.h: 694: extern volatile unsigned char TRISIO __attribute__((address(0x085)));
+[v _TRISIO `Vuc ~T0 @X0 0 e@133 ]
+"219
+[; ;/home/vermelho/Documents/MPLAB/packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8/pic/include/proc/pic12f629.h: 219: extern volatile unsigned char GPIO __attribute__((address(0x005)));
+[v _GPIO `Vuc ~T0 @X0 0 e@5 ]
+[v F36 `(v ~T0 @X0 1 tf1`ul ]
+"12 /home/vermelho/Documents/MPLAB/packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8/pic/include/builtins.h
+[v __delay `JF36 ~T0 @X0 0 e ]
+[p i __delay ]
+"7 main.c
+[p x FOSC  =  INTRCIO    ]
+"8
+[p x WDTE  =  OFF        ]
+"9
+[p x PWRTE  =  OFF       ]
+"10
+[p x MCLRE  =  OFF       ]
+"11
+[p x BOREN  =  OFF       ]
+"12
+[p x CP  =  OFF          ]
+"13
+[p x CPD  =  OFF         ]
+"55 /home/vermelho/Documents/MPLAB/packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8/pic/include/proc/pic12f629.h
+[; ;/home/vermelho/Documents/MPLAB/packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8/pic/include/proc/pic12f629.h: 55: __asm("INDF equ 00h");
+[; <" INDF equ 00h ;# ">
+"75
+[; ;/home/vermelho/Documents/MPLAB/packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8/pic/include/proc/pic12f629.h: 75: __asm("TMR0 equ 01h");
+[; <" TMR0 equ 01h ;# ">
+"95
+[; ;/home/vermelho/Documents/MPLAB/packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8/pic/include/proc/pic12f629.h: 95: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"115
+[; ;/home/vermelho/Documents/MPLAB/packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8/pic/include/proc/pic12f629.h: 115: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"201
+[; ;/home/vermelho/Documents/MPLAB/packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8/pic/include/proc/pic12f629.h: 201: __asm("FSR equ 04h");
+[; <" FSR equ 04h ;# ">
+"221
+[; ;/home/vermelho/Documents/MPLAB/packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8/pic/include/proc/pic12f629.h: 221: __asm("GPIO equ 05h");
+[; <" GPIO equ 05h ;# ">
+"309
+[; ;/home/vermelho/Documents/MPLAB/packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8/pic/include/proc/pic12f629.h: 309: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"329
+[; ;/home/vermelho/Documents/MPLAB/packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8/pic/include/proc/pic12f629.h: 329: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"407
+[; ;/home/vermelho/Documents/MPLAB/packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8/pic/include/proc/pic12f629.h: 407: __asm("PIR1 equ 0Ch");
+[; <" PIR1 equ 0Ch ;# ">
+"455
+[; ;/home/vermelho/Documents/MPLAB/packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8/pic/include/proc/pic12f629.h: 455: __asm("TMR1 equ 0Eh");
+[; <" TMR1 equ 0Eh ;# ">
+"462
+[; ;/home/vermelho/Documents/MPLAB/packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8/pic/include/proc/pic12f629.h: 462: __asm("TMR1L equ 0Eh");
+[; <" TMR1L equ 0Eh ;# ">
+"482
+[; ;/home/vermelho/Documents/MPLAB/packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8/pic/include/proc/pic12f629.h: 482: __asm("TMR1H equ 0Fh");
+[; <" TMR1H equ 0Fh ;# ">
+"502
+[; ;/home/vermelho/Documents/MPLAB/packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8/pic/include/proc/pic12f629.h: 502: __asm("T1CON equ 010h");
+[; <" T1CON equ 010h ;# ">
+"567
+[; ;/home/vermelho/Documents/MPLAB/packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8/pic/include/proc/pic12f629.h: 567: __asm("CMCON equ 019h");
+[; <" CMCON equ 019h ;# ">
+"626
+[; ;/home/vermelho/Documents/MPLAB/packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8/pic/include/proc/pic12f629.h: 626: __asm("OPTION_REG equ 081h");
+[; <" OPTION_REG equ 081h ;# ">
+"696
+[; ;/home/vermelho/Documents/MPLAB/packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8/pic/include/proc/pic12f629.h: 696: __asm("TRISIO equ 085h");
+[; <" TRISIO equ 085h ;# ">
+"746
+[; ;/home/vermelho/Documents/MPLAB/packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8/pic/include/proc/pic12f629.h: 746: __asm("PIE1 equ 08Ch");
+[; <" PIE1 equ 08Ch ;# ">
+"794
+[; ;/home/vermelho/Documents/MPLAB/packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8/pic/include/proc/pic12f629.h: 794: __asm("PCON equ 08Eh");
+[; <" PCON equ 08Eh ;# ">
+"828
+[; ;/home/vermelho/Documents/MPLAB/packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8/pic/include/proc/pic12f629.h: 828: __asm("OSCCAL equ 090h");
+[; <" OSCCAL equ 090h ;# ">
+"888
+[; ;/home/vermelho/Documents/MPLAB/packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8/pic/include/proc/pic12f629.h: 888: __asm("WPU equ 095h");
+[; <" WPU equ 095h ;# ">
+"933
+[; ;/home/vermelho/Documents/MPLAB/packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8/pic/include/proc/pic12f629.h: 933: __asm("IOC equ 096h");
+[; <" IOC equ 096h ;# ">
+"938
+[; ;/home/vermelho/Documents/MPLAB/packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8/pic/include/proc/pic12f629.h: 938: __asm("IOCB equ 096h");
+[; <" IOCB equ 096h ;# ">
+"1107
+[; ;/home/vermelho/Documents/MPLAB/packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8/pic/include/proc/pic12f629.h: 1107: __asm("VRCON equ 099h");
+[; <" VRCON equ 099h ;# ">
+"1167
+[; ;/home/vermelho/Documents/MPLAB/packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8/pic/include/proc/pic12f629.h: 1167: __asm("EEDATA equ 09Ah");
+[; <" EEDATA equ 09Ah ;# ">
+"1172
+[; ;/home/vermelho/Documents/MPLAB/packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8/pic/include/proc/pic12f629.h: 1172: __asm("EEDAT equ 09Ah");
+[; <" EEDAT equ 09Ah ;# ">
+"1205
+[; ;/home/vermelho/Documents/MPLAB/packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8/pic/include/proc/pic12f629.h: 1205: __asm("EEADR equ 09Bh");
+[; <" EEADR equ 09Bh ;# ">
+"1225
+[; ;/home/vermelho/Documents/MPLAB/packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8/pic/include/proc/pic12f629.h: 1225: __asm("EECON1 equ 09Ch");
+[; <" EECON1 equ 09Ch ;# ">
+"1263
+[; ;/home/vermelho/Documents/MPLAB/packs/Microchip/PIC10-12Fxxx_DFP/1.4.56/xc8/pic/include/proc/pic12f629.h: 1263: __asm("EECON2 equ 09Dh");
+[; <" EECON2 equ 09Dh ;# ">
+[v $root$_main `(v ~T0 @X0 0 e ]
+"26 main.c
+[; ;main.c: 26: void main(void) {
+[v _main `(v ~T0 @X0 1 ef ]
+{
+[e :U _main ]
+[f ]
+"28
+[; ;main.c: 28:     TRISIO = 0b00001000;
+[e = _TRISIO -> -> 8 `i `uc ]
+"29
+[; ;main.c: 29:     while (1) {
+[e :U 71 ]
+{
+"30
+[; ;main.c: 30:         GPIO = 0b11110111;
+[e = _GPIO -> -> 247 `i `uc ]
+"31
+[; ;main.c: 31:         _delay((unsigned long)((500)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"32
+[; ;main.c: 32:         GPIO = 0b00000000;
+[e = _GPIO -> -> 0 `i `uc ]
+"33
+[; ;main.c: 33:         _delay((unsigned long)((500)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"34
+[; ;main.c: 34:     }
+}
+[e :U 70 ]
+[e $U 71  ]
+[e :U 72 ]
+"36
+[; ;main.c: 36:     return;
+[e $UE 69  ]
+"37
+[; ;main.c: 37: }
+[e :UE 69 ]
+}
